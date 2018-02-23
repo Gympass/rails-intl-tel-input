@@ -12,7 +12,7 @@ function international_phones_init () {
         element.intlTelInput(element.data('intl-tel-input') || {});
 
         element.closest('form').submit(function () {
-            var match = element.intlTelInput('getNumber').match(/(\+\d+)(?=)/g);
+            var match = element.intlTelInput('getNumber').match(/(\+(xl)?\d+)(?=)/g);
             hidden.val(match[match.length - 1]);
         });
     });
