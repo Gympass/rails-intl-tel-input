@@ -1,5 +1,5 @@
+# -*- encoding: utf-8 -*-
 # Forked from "https://github.com/emn178/rails-intl-tel-input"
-# coding: utf-8
 
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
